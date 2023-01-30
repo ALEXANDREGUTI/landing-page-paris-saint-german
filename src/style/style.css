@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+.background-neymar{
+  background: rgba(3,0,12,0.7)url(/src/Image/wallpaper.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.logo img{
+  width: 60px;
+  height: auto;
+}
+
+nav ul{
+  display: flex;
+  gap: 30px;
+  font-size: 15px;
+}
+
+nav a{
+  color: #fff;
+  font-weight: 500;
+}
+
+header{
+  display:flex;
+  justify-content: center;
+  padding-top: 2rem;
+  align-items: center;
+  text-align: center;
+  gap: 10rem;
+}
+
+.button-enter{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.button-enter button{
+  background-color: #da2535;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-enter a{
+  color: #fff;
+  font-size: 18px;
+}
+
+.neymar-meio-container{
+  margin-left: 14%;
+  margin-top: 12%;
+  max-width: 100%;
+}
+
+.meio-neymar h1{
+  color: #fff;
+  font-size: 68px;
+}
+
+.meio-neymar p{
+  color: #f9f9f9;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+
+.meio-neymar a{
+  background-color: #da2535;
+  padding: 2px;
+  color:#fff;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn{
+  background-color: #da2535;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-top: 3rem;
+  cursor: pointer;
+  width: 150px;
+}
+
+ 
+
