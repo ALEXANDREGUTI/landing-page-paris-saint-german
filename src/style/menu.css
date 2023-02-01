@@ -1,0 +1,136 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+.menu-hamburguer{
+    display: none;
+}
+
+.logo .logo-psg-sem-cor {
+    width: 3.75rem;
+    height: auto;
+}
+
+nav .lista-cabecalho {
+    display: flex;
+    gap: 1.875rem;
+    font-size: 0.938rem;
+}
+
+nav .lista-cabecalho li .links-cabecalho {
+    color: var(--cor-textos-branco);
+    font-weight: 500;
+}
+
+nav .lista-cabecalho li .links-cabecalho:hover {
+    color: var(--hover-links);
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.button-enter {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.button-enter .btn-entrar {
+    color: var(--cor-textos-branco);
+    font-size: 1.125rem;
+}
+
+.button-enter .btn-entrar:hover {
+    color: var(--hover-links);
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.button-enter .btn-registrar {
+    background-color: var(--cor-de-fundo-botao);
+    padding: 0.625rem;
+    color: var(--cor-textos-branco);
+    border-radius: 0.313rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button-enter .btn-registrar:hover,
+.neymar-meio-container .meio-neymar .btn-ler-materia:hover {
+    padding: 0.8rem;
+    transition: 0.3s ease-in-out;
+}
+
+@media(max-width: 830px){
+    .nav-header, .button-enter{
+        display: none;
+        position: absolute;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-hamburguer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 0.625rem;
+        cursor: pointer;
+        width: 6.563rem;
+        height: 2.25rem;
+        background-color: var(--cor-de-fundo-botao);
+    }
+
+    .menu-hamburguer p{
+        color: var(--cor-textos-branco);
+        font-weight: 600;
+        font-size: 0.875rem;
+    }
+
+    .menu-hamburguer .hamburguer{
+        background-color: var(--cor-textos-branco);
+        position: relative;
+        display: block;
+        width: 2rem;
+        height: 0.1rem;
+        transition: 0.5s ease-in-out;
+    }
+
+    .menu-hamburguer .hamburguer::after, .hamburguer::before{
+        background-color: var(--cor-textos-branco);
+        content: "";
+        display: block;
+        width: 2rem;
+        height: 0.1rem;
+        position: absolute;
+        transition: 0.2s ease-in-out;
+    }
+
+    .menu-hamburguer .hamburguer::before{
+        top: -10px;
+    }
+
+    .menu-hamburguer .hamburguer::after{
+        bottom: -10px;
+    }
+
+    .header.ativado .hamburguer{
+        transform: rotate(45deg);
+    }
+
+    .header.ativado .hamburguer::before{
+        transform: rotate(90deg);
+        top: 0;
+    }
+
+    .header.ativado .hamburguer::after{
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+}

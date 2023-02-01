@@ -2,58 +2,11 @@
 
 
 .background-neymar{
-  background: rgba(3,0,12,0.7)url(/src/Image/wallpaper.png);
-  background-position: center;
+  background: url(/src/Image/wallpaper.png) no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   max-width: 100%;
-}
-
-.logo img{
-  width: 60px;
-  height: auto;
-}
-
-nav ul{
-  display: flex;
-  gap: 30px;
-  font-size: 15px;
-}
-
-nav a{
-  color: #fff;
-  font-weight: 500;
-}
-
-header{
-  display:flex;
-  justify-content: center;
-  padding-top: 2rem;
-  align-items: center;
-  text-align: center;
-  gap: 10rem;
-}
-
-.button-enter{
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
-
-.button-enter button{
-  background-color: #da2535;
-  padding: 10px;
-  color: #fff;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-
-.button-enter a{
-  color: #fff;
-  font-size: 18px;
 }
 
 .neymar-meio-container{
@@ -62,39 +15,88 @@ header{
   max-width: 100%;
 }
 
-.meio-neymar h1{
-  color: #fff;
-  font-size: 68px;
+.neymar-meio-container .meio-neymar .titulo-ney{
+  color: var(--cor-textos-branco);
+  font-size: 4.25rem;
 }
 
-.meio-neymar p{
-  color: #f9f9f9;
-  font-size: 17px;
+.neymar-meio-container .meio-neymar .citacao-ney{
+  color: var(--cor-paragrafo-citacao-neymar-footer);
+  font-size: 1.063rem;
   font-style: italic;
   font-weight: 500;
   margin-top: 1rem;
-  line-height: 25px;
+  line-height: 1.563rem;
 }
 
-.meio-neymar a{
-  background-color: #da2535;
-  padding: 2px;
-  color:#fff;
-  border-radius: 5px;
+/* .neymar-meio-container .meio-neymar a{
+  background-color: var(--cor-de-fundo-botao);
+  padding: 0.125rem;
+  color: var(--cor-textos-branco);
+  border-radius: 0.313rem;
   border: none;
-  margin-top: 10px;
-}
+  margin-top: 0.625rem;
+} */
 
-.btn{
-  background-color: #da2535;
-  padding: 10px;
-  color: #fff;
-  border-radius: 5px;
+.neymar-meio-container .meio-neymar .btn-ler-materia{
+  background-color: var(--cor-de-fundo-botao);
+  padding: 0.625rem;
+  color: var(--cor-textos-branco);
+  border-radius: 0.313rem;
   border: none;
   margin-top: 3rem;
   cursor: pointer;
-  width: 150px;
+  width: 9.375rem;
 }
 
- 
+.resultados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  gap: 2.125rem;
+}
 
+.resultados .nome-dos-times{
+  font-size: 2rem;
+  color: var(--cor-textos-fundo-branco);
+}
+
+.resultados  .placar-do-jogo, .traco-do-placar{
+  font-size: 3.875rem;
+  color: var(--cor-textos-fundo-branco);
+}
+
+.footer{
+  width: 100%;
+  height: 27rem;
+  display: grid;
+  grid-template-columns: repeat(3, 16rem);
+  background-color: var(--cor-de-fundo-footer);
+  color: var(--cor-paragrafo-citacao-neymar-footer);
+}
+
+.footer .nav-footer{
+  margin: 3.5rem 0 0 21.625rem;
+  width: 11rem;
+}
+
+.footer .nav-footer h4{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.footer .nav-footer .ul-nav-footer li a{
+  line-height: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.footer .nav-footer .ul-nav-footer li a:hover{
+  color: var(--hover-links);
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+}

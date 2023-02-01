@@ -1,5 +1,60 @@
- 
- 
-  
-  
-   
+@media(max-width: 1040px){
+    header{
+        gap: 5rem;
+      }
+
+    .footer .nav-footer{
+        margin: 3.5rem 0 0 5rem;
+    }
+}
+
+@media(max-width: 890px){
+    .resultados{
+        gap: 1.5rem;
+    }
+
+    .resultados .nome-dos-times{
+        font-size: 1.5rem;
+    }
+      
+    .resultados  .placar-do-jogo, .traco-do-placar{
+        font-size: 2.25rem;
+    }
+
+    .footer .nav-footer{
+        margin: 3.5rem 0 0 1.5rem;
+    }
+}
+
+@media(max-width: 720px){
+    .footer{
+        height: 37rem;
+        grid-template-columns: repeat(2, 16rem);
+      }
+}
+
+@media(max-width: 590px){
+    .resultados{
+        gap: 1rem;
+    }
+
+    .resultados .nome-dos-times{
+        display: none;
+    }
+}
+
+@media(max-width: 425px){
+    .footer{
+        height: 50rem;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .footer .nav-footer h4{
+        font-size: 1.125rem;
+    }
+
+    .footer .nav-footer .ul-nav-footer li a{
+        font-size: 1rem;
+      }
+}
