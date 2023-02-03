@@ -17,12 +17,12 @@
 
   <div class="background-neymar">
 
-    <header class="header">
+    <header class="header" id="menu-hamburguer">
       <div class="logo">
         <img src="/src/Image/psg logo (2).png" class="logo-psg-sem-cor">
       </div>
 
-      <button id="menu-hamburguer" class="menu-hamburguer">
+      <button class="menu-hamburguer">
         <p>Menu</p>
         <span class="hamburguer"></span>
       </button>
@@ -48,14 +48,16 @@
           <li>
             <a href="#" class="links-cabecalho">Lojas</a>
           </li>
+
+          <li class="bordar-btn-entrar">
+            <a href="#" class="btn-entrar">Entrar</a>
+          </li>
+
+          <li>
+            <button class="btn-registrar">REGISTRE-SE</button>
+          </li>
         </ul>
       </nav>
-
-      <div class="button-enter">
-        <a href="#" class="btn-entrar">Entrar</a>
-        <button class="btn-registrar">REGISTRE-SE</button>
-      </div>
-
     </header>
 
     <div class="neymar-meio-container">
@@ -91,37 +93,58 @@
 
   <section class="background-estadio">
     <div class="background-white">
-      <h1>BEM VINDO AO PARC DES PRINCES</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <div class="detalhe-e-titulo">
+        <div class="traco-detalhe"></div>
+        <h1>BEM VINDO AO PARC DES PRINCES</h1>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      </p>
       <a href="#">LER MAIS</a>
-     </div>
+    </div>
   </section>
 
   <section class="noticias">
       
-    <h1>ULTIMAS NOTÍCIAS</h1>
+    <div class="traco-ultimas-noticias">
+      <div class="traco-detalhe-noticias"></div>
+      <h1 class="titulo-ultimas-noticias">ULTIMAS NOTÍCIAS</h1>
+    </div>
     
     <div class="equipe-principal">
       <div class="cards">
-        <img src="/src/Image/img messi.png">
-        <div class="paragrafo">
+        <picture>
+          <source media="(max-width: 800px)" srcset="./src/Image/messi-mobile.png">
+          <img src="/src/Image/messi-desktop.png">
+        </picture>
+        <div class="noticia-mais-data">
           <p>EQUIPE PRINCIPAL</p>
           <span>17 de maio 2022</span>
         </div>
         <h4>Messi deseja comprar 35% das ações de clube.</h4>
       </div>
       <div class="cards">
-        <img src="/src/Image/img mbappe.png">
-        <div class="paragrafo">
+        <picture>
+          <source media="(max-width: 800px)" srcset="./src/Image/mbappe-camisa-escura-mobile.png">
+          <img src="/src/Image/mbappe-camisa-escura-desktop.png">
+        </picture>
+        <div class="noticia-mais-data">
           <p>EQUIPE PRINCIPAL</p>
           <span>17 de maio 2022</span>
         </div>
         <h4>Messi deseja comprar 35% das ações de clube.</h4>
       </div>
       <div class="cards">
-        <img src="src/Image/img mbappé.png">
-        <div class="paragrafo">
+        <picture>
+          <source media="(max-width: 800px)" srcset="./src/Image/mbappe-camisa-clara-mobile.png">
+          <img src="/src/Image/mbappe-camisa-clara-desktop.png">
+        </picture>
+        <div class="noticia-mais-data">
           <p>EQUIPE PRINCIPAL</p>
           <span>17 de maio 2022</span>
         </div>
@@ -129,7 +152,6 @@
       </div>
     </div>
     <div class="button-enter">
-      <a href="#" class="btn-entrar">Entrar</a>
       <button class="btn-registrar">CARREGAR MAIS</button>
     </div>
   </section>
@@ -166,6 +188,8 @@
 
   </footer>
 
+
+  <script src="./src/script/index.js"></script>
 </body>
 
 </html>

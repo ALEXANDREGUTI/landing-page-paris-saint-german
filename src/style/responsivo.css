@@ -1,8 +1,4 @@
 @media(max-width: 1040px){
-    header{
-        gap: 5rem;
-      }
-
     .footer .nav-footer{
         margin: 3.5rem 0 0 5rem;
     }
@@ -33,6 +29,21 @@
       }
 }
 
+@media(max-width: 735px){
+    .neymar-meio-container .meio-neymar .titulo-ney{
+        font-size: 3.25rem;
+    }
+
+    .neymar-meio-container .meio-neymar .citacao-ney{
+        font-size: 0.94rem;
+    }
+
+    .neymar-meio-container .meio-neymar .btn-ler-materia{
+        padding: 0.525rem;
+        width: 9rem;
+      }
+}
+
 @media(max-width: 590px){
     .resultados{
         gap: 1rem;
@@ -41,14 +52,38 @@
     .resultados .nome-dos-times{
         display: none;
     }
-}
 
-@media(max-width: 425px){
     .footer{
         height: 50rem;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+}
+
+@media(max-width: 500px){
+    .background-neymar{
+        background: url(/src/Image/wallpaper-mobile.png) no-repeat center;
+        background-size: cover;
+        height: 31.25rem;
+    }
+}
+
+@media(max-width: 425px){
+    .neymar-meio-container .meio-neymar .titulo-ney{
+        font-size: 2.5rem;
+    }
+
+    .neymar-meio-container .meio-neymar .citacao-ney{
+        font-size: 1rem;
+    }
+
+    .neymar-meio-container .meio-neymar .btn-ler-materia{
+        width: 19.5rem;
+        height: 2.563rem;
+        border-radius: 0.25rem;
+        margin-top: 2.5rem;
+        font-size: 0.875rem;
+      }
 
     .footer .nav-footer h4{
         font-size: 1.125rem;
@@ -57,4 +92,28 @@
     .footer .nav-footer .ul-nav-footer li a{
         font-size: 1rem;
       }
+}
+
+@media(max-width: 393px){
+    .neymar-meio-container{
+        margin: 12% 0 0 10%;
+    }
+}
+
+@media(max-width: 375px){
+    .neymar-meio-container{
+        margin: 12% 0 0 9%;
+    }
+}
+
+@media(max-width: 360px){
+    .neymar-meio-container{
+        margin: 12% 0 0 7%;
+    }
+}
+
+@media(max-width: 320px){
+    .neymar-meio-container .meio-neymar .btn-ler-materia{
+        width: 17rem;
+    }
 }

@@ -2,7 +2,7 @@
 
 
 .background-neymar{
-  background: url(/src/Image/wallpaper.png) no-repeat center;
+  background: url(/src/Image/wallpaper-desktop.png) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -10,8 +10,7 @@
 }
 
 .neymar-meio-container{
-  margin-left: 14%;
-  margin-top: 12%;
+  margin: 12% 0 0 14%;
   max-width: 100%;
 }
 
@@ -29,24 +28,16 @@
   line-height: 1.563rem;
 }
 
-/* .neymar-meio-container .meio-neymar a{
-  background-color: var(--cor-de-fundo-botao);
-  padding: 0.125rem;
-  color: var(--cor-textos-branco);
-  border-radius: 0.313rem;
-  border: none;
-  margin-top: 0.625rem;
-} */
-
 .neymar-meio-container .meio-neymar .btn-ler-materia{
+  width: 10.125rem;
+  height: 2.875rem;
   background-color: var(--cor-de-fundo-botao);
-  padding: 0.625rem;
   color: var(--cor-textos-branco);
   border-radius: 0.313rem;
   border: none;
   margin-top: 3rem;
   cursor: pointer;
-  width: 9.375rem;
+  font-size: 1.125rem;
 }
 
 .resultados{
@@ -69,79 +60,114 @@
 }
 
 .background-estadio{
-  background: url(/src/Image/wallapaper2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/src/Image/wallapaper2.png) no-repeat center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   max-width: 100%;
   height: 80vh;
   width: 100%;
 }
-.background-white{
-  background-color: #f9f9f9;
-  position: absolute;
+.background-estadio .background-white{
+  background-color: var(--cor-paragrafo-citacao-neymar-footer);
   padding: 3.125rem;
-  top: 160%;
   width: 50rem;
-  left: 11.5%;
-  top: 150%;
 }
 
-.background-white h1{
-  color: var(--cor-de-fundo-footer);
-  margin-bottom: 0.625rem;
-  border-left: solid 0.125rem var(--cor-de-fundo-botao);
+.background-estadio .background-white .detalhe-e-titulo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.background-white p{
-  font-size: 1.13rem;
-  color: var(--cor-paragrafo-background-white);
-  line-height: 0,625rem;
+.background-estadio .background-white .detalhe-e-titulo .traco-detalhe{
+  width: 0.2rem;
+  height: 1.25rem;
+  background-color: var(--cor-de-fundo-botao);
 }
 
-.background-white a{
+.background-estadio .background-white .detalhe-e-titulo h1{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--cor-textos-fundo-branco);
+}
+
+.background-estadio .background-white p{
+  font-size: 1.125rem;
+  color: var(--cor-textos-parc-des-princes);
+  line-height: 1.938rem;
+  margin-bottom: 2.25rem;
+}
+
+.background-estadio .background-white a{
   color: var(--cor-de-fundo-botao);
   font-weight: 600;
-  font-size: 0.938rem;
+  font-size: 1.1rem;
 }
 
+.noticias{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+}
 
+.noticias .traco-ultimas-noticias{
+  margin-right: 46.4%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
-.cards p{
-  font-size: 0.8rem;
+.noticias .traco-ultimas-noticias .traco-detalhe-noticias{
+  width: 0.2rem;
+  height: 1.25rem;
+  background-color: var(--cor-de-fundo-botao);
+}
+
+.noticias .traco-ultimas-noticias .titulo-ultimas-noticias{
+  color: var(--cor-textos-fundo-branco);
+  font-size: 1.6rem;
   font-weight: 600;
-  color: var(--cor-de-fundo-botao);
 }
 
-.cards span{
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--cor-background-white-h1);
-}
-
-.cards h4{
-  font-size: 0.8rem;
-}
-
-.equipe-principal{
+.noticias .equipe-principal{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 5rem;
   gap: 1.5rem;
-  
 }
 
-.noticias h1{
-  margin-top: 5rem;
-  margin-left: 6rem;
-  border-left: solid 0.125rem var(--cor-de-fundo-botao);
+.noticias .equipe-principal .cards .noticia-mais-data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
 }
- 
-  
 
- 
+.noticias .equipe-principal .cards .noticia-mais-data p{
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--cor-de-fundo-botao);
+}
+
+.noticias .equipe-principal .cards .noticia-mais-data span{
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--cor-textos-parc-des-princes);
+}
+
+.noticias .equipe-principal .cards h4{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--cor-textos-fundo-branco);
+} 
 
 .footer{
   width: 100%;
