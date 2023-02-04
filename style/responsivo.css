@@ -163,7 +163,7 @@
 
 @media(max-width: 500px){
     .background-neymar{
-        background: url(/src/Image/wallpaper-mobile.png) no-repeat center;
+        background: url(../Image/wallpaper-mobile.png) no-repeat center;
         background-size: cover;
         height: 31.25rem;
     }
