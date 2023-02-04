@@ -1,4 +1,36 @@
+@media(max-width: 1540px){
+    .noticias .traco-ultimas-noticias{
+        margin-right: 63.9%;
+    }
+}
+
+@media(max-width: 1465px){
+    .noticias .traco-ultimas-noticias{
+        margin-right: 67.3%;
+    }
+}
+
+@media(max-width: 1370px){
+    .noticias .traco-ultimas-noticias{
+        margin-right: 72%;
+    }
+}
+
+@media(max-width: 1252px){
+    .noticias{
+        height: 68rem;
+    }
+
+    .noticias .traco-ultimas-noticias{
+        margin-right: 44.9%;
+    }
+}
+
 @media(max-width: 1040px){
+    .noticias .traco-ultimas-noticias{
+        margin-right: 54.1%;
+    }
+
     .footer .nav-footer{
         margin: 3.5rem 0 0 5rem;
     }
@@ -17,8 +49,22 @@
         font-size: 2.25rem;
     }
 
+    .noticias .traco-ultimas-noticias{
+        margin-right: 63.6%;
+    }
+
     .footer .nav-footer{
         margin: 3.5rem 0 0 1.5rem;
+    }
+}
+
+@media(max-width: 832px){
+    .noticias{
+        height: 90rem;
+    }
+
+    .noticias .traco-ultimas-noticias{
+        margin-right: 16.4%;
     }
 }
 
@@ -44,6 +90,13 @@
       }
 }
 
+@media(max-width: 660px){
+    .noticias .traco-ultimas-noticias{
+        margin-right: 20.4%;
+    }
+}
+
+
 @media(max-width: 590px){
     .resultados{
         gap: 1rem;
@@ -66,6 +119,10 @@
         background-size: cover;
         height: 31.25rem;
     }
+
+    .noticias .equipe-principal .cards h4{
+        font-size: 0.875rem;
+    }
 }
 
 @media(max-width: 425px){
@@ -83,7 +140,31 @@
         border-radius: 0.25rem;
         margin-top: 2.5rem;
         font-size: 0.875rem;
-      }
+    }
+
+    .noticias .traco-ultimas-noticias{
+        margin-right: 25.8%;
+    }
+
+    .noticias .traco-ultimas-noticias .titulo-ultimas-noticias{
+        font-size: 1.25rem;
+    }
+
+    .noticias .equipe-principal .cards .noticia-mais-data p{
+        font-size: 0.75rem;
+    }
+
+    .noticias .btn-carregar-mais{
+        width: 19.5rem;
+        height: 2.6rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+      
+    .noticias .btn-carregar-mais:hover{
+        width: 19.7rem;
+        height: 2.8rem;
+    }
 
     .footer .nav-footer h4{
         font-size: 1.125rem;
@@ -98,11 +179,19 @@
     .neymar-meio-container{
         margin: 12% 0 0 10%;
     }
+
+    .noticias .traco-ultimas-noticias{
+        margin-right: 27.5%;
+    }
 }
 
 @media(max-width: 375px){
     .neymar-meio-container{
         margin: 12% 0 0 9%;
+    }
+
+    .noticias .traco-ultimas-noticias{
+        margin-right: 29%;
     }
 }
 
@@ -110,10 +199,45 @@
     .neymar-meio-container{
         margin: 12% 0 0 7%;
     }
+
+    .noticias .traco-ultimas-noticias{
+        margin-right: 30%;
+    }
 }
 
 @media(max-width: 320px){
     .neymar-meio-container .meio-neymar .btn-ler-materia{
         width: 17rem;
+    }
+
+    .noticias .equipe-principal .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .noticias .traco-ultimas-noticias{
+        margin-right: 25.7%;
+    }
+
+    .noticias .equipe-principal .cards .imagens-noticias{
+        width: 290px;
+    }
+
+    .noticias .equipe-principal .cards .noticia-mais-data{
+        display: flex;
+        gap: 5.5rem;
+    }
+
+    .noticias .equipe-principal .cards h4{
+        font-size: 0.8rem;
+    }
+
+    .noticias .btn-carregar-mais{
+        width: 18.5rem;
+    }
+    .noticias .btn-carregar-mais:hover{
+        width: 18.8rem;
     }
 }

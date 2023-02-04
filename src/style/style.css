@@ -113,11 +113,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 40rem;
+  height: 50rem;
 }
 
 .noticias .traco-ultimas-noticias{
-  margin-right: 46.4%;
+  margin-right: 61.5%;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -140,7 +140,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 5rem;
+  padding: 4rem 0;
   gap: 1.5rem;
 }
 
@@ -160,7 +160,7 @@
 .noticias .equipe-principal .cards .noticia-mais-data span{
   font-size: 0.7rem;
   font-weight: 600;
-  color: var(--cor-textos-parc-des-princes);
+  color: var(--cor-data-da-noticia);
 }
 
 .noticias .equipe-principal .cards h4{
@@ -168,6 +168,23 @@
   font-weight: 500;
   color: var(--cor-textos-fundo-branco);
 } 
+
+.noticias .btn-carregar-mais{
+  width: 10rem;
+  height: 2.9rem;
+  background-color: var(--cor-de-fundo-botao);
+  border-radius: 0.25rem;
+  color: var(--cor-textos-branco);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.noticias .btn-carregar-mais:hover{
+  width: 10.2rem;
+  height: 3rem;
+  color: var(--hover-links);
+  transition: 0.2s ease-in-out;
+}
 
 .footer{
   width: 100%;
